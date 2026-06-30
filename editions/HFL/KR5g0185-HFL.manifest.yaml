@@ -1,0 +1,53 @@
+canonical_identifier: bkk:krp/KR5g0185/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5g0185/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上清太上帝君九真中經
+  date: '2015-08-29 02:59:41.532214'
+  source:
+    repository: kanripo
+    path: KR5g0185
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0185_000-HFL.yaml, hash: 'sha256:0a6d569717af5fd4ffd159fba7b230a13587e9097fde8e062e8bb39f122fabf2'}
+  - {seq: 1, filename: KR5g0185_001-HFL.yaml, hash: 'sha256:93ec67286a2c4978101597695024915171c8a37bd4e1f5c45debc0ecbf05a98c'}
+  - {seq: 2, filename: KR5g0185_002-HFL.yaml, hash: 'sha256:48e14a4200c84cafc5ba0d04a8a68c7694ffc6e4ef1c864e24e59a43cab87fb7'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5g0185_001-HFL.markers.yaml, hash: 'sha256:4794104c894ab32e42f55f55f0e1f9dfb06a03cb5333f18ed662a944c1291c2a'}
+  - {seq: 2, role: markers, filename: assets/KR5g0185_002-HFL.markers.yaml, hash: 'sha256:89f2d3a9522e50390887800318d2dec8b57439e8a908a5c5725a70348c1e205a'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR5g0185_HFL_001-001a
+    span:
+    - body
+    - 0
+    - 4947
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5g0185_HFL_002-001a
+    span:
+    - body
+    - 0
+    - 5016
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:9321563fdf5fa7c5d7526965b2b5c95e0bf1864a75e8d3ce8ee6a86d01e49129
